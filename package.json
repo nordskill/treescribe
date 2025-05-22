@@ -1,0 +1,29 @@
+{
+    "name": "treescribe",
+    "version": "1.0.0",
+    "description": "Generates a directory tree structure for the current folder and saves it to console or a specified file.",
+    "type": "module",
+    "main": "lib/generateTree.js",
+    "bin": {
+        "treescribe": "bin/treescribe.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "tree",
+        "directory",
+        "folder",
+        "structure",
+        "cli",
+        "utility"
+    ],
+    "author": "Your Name <your.email@example.com>",
+    "license": "MIT",
+    "dependencies": {
+        "minimatch": "^9.0.3"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
