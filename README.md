@@ -34,21 +34,35 @@ my-project
 - **Cross-platform**: Works on Windows, macOS, and Linux with consistent output
 - **Organized output**: Directories are listed first, followed by files in alphabetical order
 
-## Installation
+## Usage
+
+### Quick One-Time Use (Recommended)
+
+The easiest way to use Treescribe is with npx - no installation needed:
+
+```bash
+npx treescribe
+```
+
+This downloads and runs Treescribe on the spot without installing anything permanently.
+
+### Installation (Optional)
+
+If you plan to use Treescribe regularly, you can install it globally:
 
 ```bash
 npm install -g treescribe
 ```
 
-## Basic Usage
-
-Generate a tree for the current directory:
+After installation, you can run:
 
 ```bash
 treescribe
 ```
 
 ## Options
+
+All options work with both installation methods (with `npx treescribe` or just `treescribe` if installed globally).
 
 Ignore specific directories (separated with `|`):
 
@@ -68,7 +82,7 @@ Save the output to a file:
 treescribe --output 'tree.txt'
 ```
 
-You also can use multiple options in any combinations:
+You can use multiple options in any combination:
 
 ```bash
 treescribe --level 2 --ignore 'node_modules' --output 'tree.txt'
@@ -77,5 +91,5 @@ treescribe --level 2 --ignore 'node_modules' --output 'tree.txt'
 And a compact way to write options:
 
 ```bash
-treescribe -l 2 -i 'node_modules' -i 'tree.txt'
+treescribe -l 2 -i 'node_modules' -o 'tree.txt'
 ```
