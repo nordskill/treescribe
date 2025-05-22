@@ -20,9 +20,6 @@
     ],
     "author": "Your Name <your.email@example.com>",
     "license": "MIT",
-    "dependencies": {
-        "minimatch": "^9.0.3"
-    },
     "engines": {
         "node": ">=18.0.0"
     }
