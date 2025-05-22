@@ -1,7 +1,7 @@
 {
     "name": "treescribe",
     "version": "1.0.0",
-    "description": "Generates a directory tree structure for the current folder and saves it to console or a specified file.",
+    "description": "A simple utility to generate directory tree from your file system which just works.",
     "type": "module",
     "main": "lib/generateTree.js",
     "bin": {
